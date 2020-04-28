@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Toko Online</title>
+        <link href="style.css" rel="stylesheet">
+        <link href="keranjangBelanja.html">
+        <link href="contactUs.html">
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+    <body style="font-family: sans-serif; font-weight: bold">
+        <h1 style="display:inline-block; margin-left: 475px">Toko Online</h1>
+
+        <a href="keranjangBelanja.html"><button class="buttonTambah" style="display: inline-block; float: right">🛒Keranjang Belanja</button></a>
+
+        <a href="contactUs.html"><button class="buttonTambah" style="display: inline-block; float: left">Contact Us</button></a>
+
+        <div onload="initialize()" style="text-align: center">
+            <input type="text" name="txtSearch" id="txtSearch" placeholder="Cari..." style="width:500px; height:25px; font-size: 18px; border:solid black 2px; 
+            padding: 3px; border-radius: 4px; ">
+        </div>
+
+        <div style="padding: 20px">
+            <div   style="display: inline-block; border: 2px solid black; padding: 8px; border-radius: 4px" id="1">
+                <img src="https://ecs7.tokopedia.net/img/cache/700/product-1/2018/11/13/3960666/3960666_77979a37-b61a-4ea6-8a91-decdc3533a89_500_500.jpg" class="zoom">
+                <p style ="width:200px">Laptop ASUS ROG GL503GE-EN023T Core I7 8750H - RAM 8GB</p>  
+                <P>Harga: Rp 16.000.000</P>
+                <div style="text-align: center;"><button onclick="alert('Telah masuk dalam Keranjang Belanjaan Anda!')" class="buttonTambah">🛒Tambah ke Keranjang</button></div>
+            </div>
+            <div style="display: inline-block; border: 2px solid black; padding: 8px; margin-left: 10px; border-radius: 4px" id="2">
+                <img src="https://ecs7.tokopedia.net/img/cache/700/product-1/2018/11/13/3960666/3960666_77979a37-b61a-4ea6-8a91-decdc3533a89_500_500.jpg" class="zoom">
+                <p style ="width:200px">Laptop ASUS ROG GL503GE-EN023T Core I7 8750H - RAM 8GB</p>  
+                <P id="harga">Harga: Rp 16.000.000</P>
+                <div style="text-align: center;"><button onclick="alert('Telah masuk dalam Keranjang Belanjaan Anda!')" class="buttonTambah">🛒Tambah ke Keranjang</button></div>
+            </div>
+        </div>
+
+        <div class="footer">
+                <p><marquee>Created by:  David Erik, Giovanni Kurniawan & Reynardo Etantyo</marquee></p>
+        </div>
+
+        <script>
+        
+        </script>
+    </body>
+</html>

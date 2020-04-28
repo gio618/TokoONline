@@ -1,0 +1,38 @@
+[
+	{
+		"name":"ipon 4",
+		"price":1000000,
+		"image":"pic1.jpg",
+		"seller":{
+			"name":"uvuvwevwevwe",
+			"location":"Tangerang"
+		}
+	},
+	{
+		"name":"samsang milky way",
+		"price":2000000,
+		"image":"pic2.jpg",
+		"seller":{
+			"name":"datboi",
+			"location":"Di Rumah"
+		}
+	},
+	{
+		"name":"seribesi - guru",
+		"price":200000,
+		"image":"pic3.jpg",
+		"seller":{
+			"name":"yeahboi",
+			"location":"Di Kali"
+		}
+	},
+	{
+		"name":"speedy speed boy",
+		"price":200000,
+		"image":"pic4.jpg",
+		"seller":{
+			"name":"takumi",
+			"location":"japun"
+		}
+	}
+]
